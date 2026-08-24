@@ -52,9 +52,10 @@ class DistRouting
 
     void updateDistance()
     {
-        int update=0;
-        while(update==0)
+        int update=1;
+        while(update==1)
         {
+            update=0;
             for(int i=0; i<n; i++)
             {
                 for(int j=0; j<n; j++)
